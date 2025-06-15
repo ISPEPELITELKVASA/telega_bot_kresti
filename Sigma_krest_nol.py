@@ -307,7 +307,7 @@ async def startgame_2(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     return MENU_1
 
 def main():
-    # 7905012820:AAHisQIBdLZLUslt-LjLKFTeyS-XF7xnji4
+
     app = ApplicationBuilder().token("YOUR TOKEN").build()
 
     app.add_handler(CallbackQueryHandler(clickbutton,
